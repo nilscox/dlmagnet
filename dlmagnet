@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo -n "path: /downloads/"
+read -r path
+
+magnet=$(echo $1 | sed -e "s/^'\(.*\)'$/\1/")
+
+# do whatever you want with $path and $magnet
+# curl -v "http://some-domain.tld/php/addtorrent.php?dir_edit=/downloads/$path" --data-urlencode "url=$magnet"
+
+read

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0.0
+Name=dlmagnet
+Comment=Start a torrent from a magnet link by calling an API
+Exec=/usr/local/bin/dlmagnet "%U"
+MimeType=x-scheme-handler/magnet
+Terminal=true
